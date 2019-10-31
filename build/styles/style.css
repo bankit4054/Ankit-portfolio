@@ -6029,6 +6029,7 @@ body {
 
 .section-about .profile-photo {
     margin-right: 10%;
+    margin-left: 20%;
     margin-bottom: 10px;
 }
 
@@ -6058,7 +6059,7 @@ body {
 }
 
 .profile-photo img {
-    width: 100%;
+    width: 90%;
     display: block;
 }
 
@@ -6159,7 +6160,7 @@ body {
 
     .section-about .profile-photo {
         margin-right: 0;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 }
 
@@ -9430,7 +9431,7 @@ body {
 .no-boxshadow.theme-skin-dark .section-box,
 .no-boxshadow.theme-skin-dark .calendar-busy,
 .no-boxshadow.theme-skin-dark .sidebar-default .profile-photo img {
-    border: 1px solid #525458;
+    border: 5px solid #525458;
 }
 
 .no-boxshadow.theme-skin-dark .timeline-box-inner {
