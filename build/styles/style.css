@@ -9443,7 +9443,7 @@ body {
     width: 340px;
     height: 440px;
     background: #e6e6e6;
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 0 40px -10px #000;
     margin: auto;
     padding: 10px 15px;
@@ -9490,8 +9490,5 @@ p:before {
   button:hover {
     background: #78788c;
     color: #fff;
-  }
-  span {
-    margin: 0 5px 0 15px;
   }
   
