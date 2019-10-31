@@ -9442,13 +9442,13 @@ body {
 .form {
     width: 340px;
     height: 440px;
-    background: #e6e6e6;
+    background: #f1f1f1;
     border-radius: 5px;
-    box-shadow: 0 0 40px -10px #000;
+    box-shadow: 0 0 20px -8px #000;
     margin: auto;
     padding: 10px 15px;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans";
     position: relative;
   }
 
@@ -9460,7 +9460,7 @@ body {
     outline: none;
     resize: none;
     border: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family:  "Open Sans";
     transition: all 0.3s;
     border-bottom: 2px solid #bebed2;
   }
@@ -9472,18 +9472,18 @@ body {
 p:before {
     content: attr(type);
     display: block;
-    margin: 28px 0 0;
-    font-size: 14px;
-    color: #5a5a5a;
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: black;
   }
   button {
     float: right;
     padding: 8px 12px;
     margin: 8px 0 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans";
     border: 2px solid #78788c;
     background: 0;
-    color: #5a5a6e;
+    color: #34AEE8;
     cursor: pointer;
     transition: all 0.3s;
   }
