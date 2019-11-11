@@ -348,11 +348,12 @@
                     <div class=animate-up>
                         <div class=row>
                             <h2 class=section-title>Contact Us</h2>
-                            <div class="section-box">
-                                <div class="col-sm-6">
-                                    <form class="form" method="post" data-emai="cankit2491@gmail.com"
+                          
+                                <div class="row">
+                                        <form class="form" method="post" data-emai="cankit2491@gmail.com"
                                         action="https://script.google.com/macros/s/AKfycbwgBeEY9Q24dpqhDifGFuboz1Tg1jm-LT2KK3c3160vWPAPBS5-/exec">
-                                        <p type="Name:"><input class="empty" name="name"
+                                    <div class=col-sm-6>
+                                            <p type="Name:"><input class="empty" name="name"
                                                 placeholder="&#xF007; Write your name here.."
                                                 required="required"></input></p>
                                         <p type="Email:"><input class="empty" name="email"
@@ -361,29 +362,24 @@
                                         <p type="Message:"><input class="empty" name="message"
                                                 placeholder="&#xF249; What would you like to tell ..."
                                                 required="required" required="required"></input></p>
-
-                                        <button type="submit" name="submit" value="Submit" onclick="delayAlert()">Send
-                                            Message</button>
-                                        <div id="myDIV" style ="display: none;color: green;">
-                                            Success! message sent successfully.
-                                        </div>
-
-                                    </form>
-
-                                </div>
-                                <div class="col-sm-6 box-padding">
-                                    <p class=text-center>
-                                        <h3 style="text-align: center;">Scan QR Code</h3>
-                                    </p>
-                                    <p class=text-center><img class="qrimg" src=build/img/qrcode.svg width="200"
-                                            height="800"></p>
-                                </div>
-                            </div>
+                                                <button type="submit" name="submit" value="Submit" onclick="delayAlert()">Send
+                                                        Message</button>
+                                                    <div id="myDIV" style ="display: none;color: green;">
+                                                        Message sent successfully.
+                                                    </div>
+                                    </div>
+                                    <div class=col-sm-6>
+                                                <p class=text-center><img class="qrimg" src=build/img/qrcode.svg width="200"
+                                                        height="800"></p>
+                                    </div>
+                                </form>
+                                </div>    
+                            
                         </div>
                     </div>
-                </section>
-            </div>
-        </div>
+               </section>
+           
+        
         <footer class=footer>
             <div class=footer-social>
                 <ul class=social>

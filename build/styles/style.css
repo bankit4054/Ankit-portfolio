@@ -9440,9 +9440,9 @@ body {
 /*--Start it here --*/
 
 .form {
-    width: 340px;
-    height: 360px;
-    background: #f1f1f1;
+    width: 700px;
+    height: 400px;
+    background:white;
     border-radius: 5px;
     box-shadow: 0 0 20px -8px #000;
     margin: auto;
