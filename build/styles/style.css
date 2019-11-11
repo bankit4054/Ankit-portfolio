@@ -2545,8 +2545,10 @@ th, td {
     vertical-align: top;
 }
 
-.proimg {
+img {
     border: 0;
+    height: auto;
+    max-width: 100%;
     vertical-align: middle;
 }
 
@@ -3850,7 +3852,7 @@ textarea {
  */
 .alignleft {
     display: inline;
-    float:left;
+    float: left;
 }
 
 .alignright {
@@ -5056,11 +5058,11 @@ body {
 }
 
 .logo,
-.logo{
+.logo img {
     max-height: 50px;
 }
 
-.logo {
+.logo img {
     max-width: 100%;    
     display: inline-block;
 }
@@ -6057,6 +6059,7 @@ body {
 }
 
 .profile-photo img {
+    width: 100%;
     width: 90%;
     display: block;
 }
@@ -6158,7 +6161,7 @@ body {
 
     .section-about .profile-photo {
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 }
 
@@ -6195,14 +6198,13 @@ body {
     .section-about .profile-title {
         font-size: 28px;
     }
-
 }
 
 /**
  * 11.3 - Section Skills
  */
 .section-skills .section-box {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .progress-bar {
@@ -9430,75 +9432,9 @@ body {
 .no-boxshadow.theme-skin-dark .section-box,
 .no-boxshadow.theme-skin-dark .calendar-busy,
 .no-boxshadow.theme-skin-dark .sidebar-default .profile-photo img {
-    border: 5px solid #525458;
+    border: 1px solid #525458;
 }
 
 .no-boxshadow.theme-skin-dark .timeline-box-inner {
     border: 1px solid #525458 !important;
 }				
-
-/*--Start it here --*/
-
-.form {
-    width: 700px;
-    height: 400px;
-    background:white;
-    border-radius: 5px;
-    box-shadow: 0 0 20px -8px #000;
-    margin: auto;
-    padding: 10px 15px;
-    box-sizing: border-box;
-    font-family: "Open Sans";
-    position: relative;
-  }
-
-  input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    background: none;
-    outline: none;
-    resize: none;
-    border: 0;
-    font-family:  "Open Sans";
-    transition: all 0.3s;
-    border-bottom: 2px solid #bebed2;
-  }
-  input:focus {
-    border-bottom: 2px solid #78788c;
-  }
-
-  
-p:before {
-    content: attr(type);
-    display: block;
-    margin: 0 0 8px;
-    font-size: 16px;
-    color: black;
-  }
-  button {
-    float: right;
-    padding: 8px 12px;
-    margin: 8px 0 0;
-    font-family: "Open Sans";
-    border: 2px solid #78788c;
-    background: 0;
-    color: #34AEE8;
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-  button:hover {
-    background: #78788c;
-    color: #fff;
-  }
-  
-.empty{
-    font-family:  'Open Sans', FontAwesome, sans-serif;
-}
-
-.qrimg {
-    border: 0;
-    height: 250px;
-    width:250px;
-    vertical-align: middle;
-}
