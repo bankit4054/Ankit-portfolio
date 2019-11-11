@@ -346,13 +346,19 @@ content="Software Developer specializing in front end & back end development ,De
                             <div class="section-box">
                                 <div class="col-sm-6">
                                     <form class="form" method="post"
-                                    data-email="cankit2491@gmail.com"
                                     action="https://script.google.com/macros/s/AKfycbyMzPT5dMJDGSIVbf_iZYjikaIrBS9rADdOAhkZ9w/exec">
                                         <p type="Name:"><input class="empty" name = "name" placeholder="&#xF007; Write your name here.." required="required"></input></p>
                                         <p type="Email:"><input class="empty" name = "email" placeholder="&#xF0E0; Let me know how to contact you back.."required="required"></input></p>
                                         <p type="Message:"><input class="empty" name = "message" placeholder="&#xF249; What would you like to tell ..." required="required"required="required"></input></p>
                                         <button type="submit" name="submit" value="Submit" >Send Message</button>
-                                      </form>
+                                        <div style="display:none" class="thankyou_message">
+                                                <!-- You can customize the thankyou message by editing the code below -->
+                                                <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+                                                </h2>
+                                               </div>  
+                                    
+                                    </form>
+                                      
                                 </div>          
                                 <div class="col-sm-6 box-padding"> 
                                     <p class=text-center><h3>Scan QR Code</h3></p> 
@@ -385,6 +391,7 @@ content="Software Developer specializing in front end & back end development ,De
         <div class=preload-icon><span></span><span></span></div>
         <div class=preload-text></div>
     </div>
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
     <script type=text/javascript
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeaJg_FveukIU8-SfVJEdmeGjWa7A0SdE"></script>
     <script src=https://www.google.com/recaptcha/api.js> </script> <script type=text/javascript
@@ -403,6 +410,7 @@ content="Software Developer specializing in front end & back end development ,De
             ga('create', 'UA-58958884-1', 'auto');
             ga('send', 'pageview');
         </script>
+       
 </body>
 
 </html>
