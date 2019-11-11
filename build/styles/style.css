@@ -2545,10 +2545,8 @@ th, td {
     vertical-align: top;
 }
 
-img {
+.proimg {
     border: 0;
-    height: auto;
-    max-width: 100%;
     vertical-align: middle;
 }
 
@@ -5058,11 +5056,11 @@ body {
 }
 
 .logo,
-.logo img {
+.logo{
     max-height: 50px;
 }
 
-.logo img {
+.logo {
     max-width: 100%;    
     display: inline-block;
 }
@@ -6197,13 +6195,14 @@ body {
     .section-about .profile-title {
         font-size: 28px;
     }
+
 }
 
 /**
  * 11.3 - Section Skills
  */
 .section-skills .section-box {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .progress-bar {
@@ -9442,7 +9441,7 @@ body {
 
 .form {
     width: 340px;
-    height: 440px;
+    height: 360px;
     background: #f1f1f1;
     border-radius: 5px;
     box-shadow: 0 0 20px -8px #000;
@@ -9495,4 +9494,11 @@ p:before {
   
 .empty{
     font-family:  'Open Sans', FontAwesome, sans-serif;
+}
+
+.qrimg {
+    border: 0;
+    height: 250px;
+    width:250px;
+    vertical-align: middle;
 }
