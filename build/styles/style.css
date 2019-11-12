@@ -9479,19 +9479,17 @@ body {
     font-family: "Open Sans";
     border: 2px solid #78788c;
     background: 0;
-    color: #5a5a6e;
+    background: #3D4451;
     color: #34AEE8;
     cursor: pointer;
     transition: all 0.3s;
   }
 
-  button:hover {
+  .button1:hover {
     background: #78788c;
     color: #fff;
   }
-  span {
-    margin: 0 5px 0 15px;
-  }
+
 
   .empty{
     font-family:  'Open Sans', FontAwesome, sans-serif;
