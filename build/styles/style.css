@@ -9470,7 +9470,8 @@ body {
     font-size: 16px;
     color: black;
   }
-  button {
+  
+  .button1 {
     float: right;
     padding: 8px 12px;
     margin: 8px 0 0;
@@ -9483,6 +9484,7 @@ body {
     cursor: pointer;
     transition: all 0.3s;
   }
+
   button:hover {
     background: #78788c;
     color: #fff;
@@ -9490,6 +9492,7 @@ body {
   span {
     margin: 0 5px 0 15px;
   }
+
   .empty{
     font-family:  'Open Sans', FontAwesome, sans-serif;
 } 
