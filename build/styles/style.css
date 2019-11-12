@@ -7733,11 +7733,12 @@ body {
 
 .contact-info.has-map {
     position: relative;
-    padding-bottom: 340px;
+    padding-bottom: 0%;
 }
 
 .contact-info iframe {
     display: block;
+    margin: 10px;
 }
 
 .contact-info .contact-list {
@@ -7747,7 +7748,7 @@ body {
 }
 
 .contact-info .contact-list li {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .contact-info .contact-list li:last-child {
@@ -9438,3 +9439,57 @@ body {
 .no-boxshadow.theme-skin-dark .timeline-box-inner {
     border: 1px solid #525458 !important;
 }				
+
+
+/*--Start it here --*/
+
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2;
+  }
+  input:focus {
+    border-bottom: 2px solid #78788c;
+  }
+
+
+  p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a;
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: black;
+  }
+  button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans";
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    color: #34AEE8;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  button:hover {
+    background: #78788c;
+    color: #fff;
+  }
+  span {
+    margin: 0 5px 0 15px;
+  }
+  .empty{
+    font-family:  'Open Sans', FontAwesome, sans-serif;
+} 
