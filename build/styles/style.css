@@ -7728,7 +7728,7 @@ body {
  * 11.9 - Section Contact
  */
 .contact-info.section-box {
-    padding: 0;
+    padding: 20px;
 }
 
 .contact-info.has-map {
@@ -7738,17 +7738,17 @@ body {
 
 .contact-info iframe {
     display: block;
-    margin: 10px;
+    margin: auto;
 }
 
 .contact-info .contact-list {
     list-style: none;
-    padding: 45px 35px 30px;
+    padding: 10px 10px 10px;
     margin: 0;
 }
 
-.contact-info .contact-list li {
-    margin-bottom: 10px;
+.contact-info .contact-list {
+    margin-bottom: auto;
 }
 
 .contact-info .contact-list li:last-child {
@@ -7791,11 +7791,11 @@ body {
     line-height: 1.1;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 42px;
+    margin-bottom: 10px;
 }
 
 .contactForm.section-box {
-    padding: 45px 35px 25px 35px;
+    padding: 45px 35px 20px 35px;
 }
 
 #map {
@@ -7815,7 +7815,7 @@ body {
 
 @media (max-width: 767px) {
     .contact-form {
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
 
     .contactForm.section-box,
@@ -9494,3 +9494,4 @@ body {
   .empty{
     font-family:  'Open Sans', FontAwesome, sans-serif;
 } 
+
