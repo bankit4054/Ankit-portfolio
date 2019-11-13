@@ -9472,22 +9472,23 @@ body {
   }
   
   .button1 {
-    float: right;
-    padding: 8px 12px;
+    position:relative;
+    left:40%;
+    padding: 10px 14px;
     margin: 8px 0 0;
     font-family: "Montserrat", sans-serif;
     font-family: "Open Sans";
     border: 2px solid #78788c;
     background: 0;
-    background: #3D4451;
-    color: #34AEE8;
+    background: #34AEE8;
+    color: white;
     cursor: pointer;
     transition: all 0.3s;
   }
 
   .button1:hover {
     background: #78788c;
-    color: #fff;
+    color: #34AEE8;
   }
 
 
@@ -9495,3 +9496,38 @@ body {
     font-family:  'Open Sans', FontAwesome, sans-serif;
 } 
 
+
+.resume_button {
+    position:relative;
+    left:25%;
+    padding: 9px 13px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans";
+    border: 2px solid #78788c;
+    background: 0;
+    background: #34AEE8;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .resume_button:hover {
+    background: #78788c;
+    color: #34AEE8;
+  }
+
+  .qrimg{
+    border: 0;
+    height: 250px;
+    width:250px;
+    vertical-align: middle;
+  }
+
+  .profileimg
+  {
+    border: 0;
+    height: 250px;
+    width:250px;
+    vertical-align: middle; 
+  }
